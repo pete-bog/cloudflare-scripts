@@ -6,7 +6,7 @@ from copy import deepcopy
 import requests
 
 URL_BASE = "https://api.cloudflare.com/client/v4"
-LOG = logging.getLogger("Cloudflare DDNS client")
+LOG = logging.getLogger("Cloudflare ACME client")
 ACME_DOMAIN_TEMPLATE="_acme-challenge.{}"
 
 
